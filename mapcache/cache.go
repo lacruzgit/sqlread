@@ -5,7 +5,7 @@ import (
 	"errors"
 	"os"
 
-	"github.com/donatj/sqlread"
+	"github.com/tespeleta/sqlread"
 )
 
 // CacheVersion is incremented when the structure of the cache changes
