@@ -71,7 +71,7 @@ func (d *InsertDetailParser) ParseStart(p *Parser) parseState {
 var errorInvalidString = errors.New("invalid string")
 
 func stringValue(c LexItem) (string, error) {
-	v := c.Val
+	v := []rune(c.Val)
 
 	if len(v) < 2 || v[0] != v[len(v)-1] {
 		return "", errorInvalidString
