@@ -1,7 +1,7 @@
 package debug
 
 import (
-	"github.com/tespeleta/sqlread"
+	"github.com/lacruzgit/sqlread"
 )
 
 func LexTunnel(in chan sqlread.LexItem, cb func(c sqlread.LexItem)) chan sqlread.LexItem {

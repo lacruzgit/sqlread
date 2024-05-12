@@ -6,7 +6,7 @@ import (
 	"log"
 	"sort"
 
-	"github.com/tespeleta/sqlread"
+	"github.com/lacruzgit/sqlread"
 )
 
 type DataWriter interface {
