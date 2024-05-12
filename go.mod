@@ -1,4 +1,4 @@
-module github.com/tespeleta/sqlread
+module github.com/lacruzgit/sqlread
 
 go 1.12
 

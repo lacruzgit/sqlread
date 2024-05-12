@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 
 	bufra "github.com/avvmoto/buf-readerat"
-	"github.com/tespeleta/sqlread"
-	"github.com/tespeleta/sqlread/mapcache"
+	"github.com/lacruzgit/sqlread"
+	"github.com/lacruzgit/sqlread/mapcache"
 )
 
 var filename string
